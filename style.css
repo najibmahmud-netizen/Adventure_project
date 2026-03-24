@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+}
     /* 4. Bottom styling */
     .btn {
         background-color: #ffcc00; /* Gold color for buttons */
@@ -55,3 +55,13 @@ h1, h2, h3, h4, h5, h6 {
         margin: 20px 0;
         height:auto;
     }
+    /* Table container styling */
+    table {
+        width: 100%;
+        border-collapse: collapse; /* prevent double borders */
+        margin-top: 20px;
+        font-size: arial, sans-serif;
+        background-color: lch(69.58% 77.02 140.09 / 0.623); /* green background with transparency */
+        color: #071f09; /* black  */
+    }
+        
